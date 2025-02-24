@@ -10,14 +10,14 @@ let addressescsv = [];
 let DLS = 7;
 let remarkIndex = 1;//CSV备注所在列偏移量
 
-let subConverter = 'SUBAPI.fxxk.dedyn.io';
+let subConverter = 'SUBAPI.cmliussss.net';
 let subConfig = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2NtbGl1L0FDTDRTU1IvbWFpbi9DbGFzaC9jb25maWcvQUNMNFNTUl9PbmxpbmVfRnVsbF9NdWx0aU1vZGUuaW5p');
 let noTLS = 'false';
 let link;
 let 隧道版本作者 = atob('ZWQ=');
 let 获取代理IP;
 let proxyIPs = [
-	atob('cHJveHlpcC5meHhrLmRlZHluLmlv'),
+	atob('cHJveHlpcC5meHhrLmRlZHluLmlv')，
 ];
 let 匹配PROXYIP = []
 let socks5DataURL = '';
@@ -34,19 +34,19 @@ let timestamp = 4102329600000;
 const regex = /^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|\[.*\]):?(\d+)?#?(.*)?$/;
 let fakeUserID;
 let fakeHostName;
-let httpsPorts = ["2053", "2083", "2087", "2096", "8443"];
+let httpsPorts = ["2053"， "2083"， "2087"， "2096"， "8443"];
 let 有效时间 = 7;
 let 更新时间 = 3;
-let MamaJustKilledAMan = ['telegram', 'twitter', 'miaoko'];
+let MamaJustKilledAMan = ['telegram'， 'twitter'， 'miaoko'];
 let proxyIPPool = [];
 let socks5Data;
 let alpn = 'h3';
 let 网络备案 = `<a href='https://t.me/CMLiussss'>萌ICP备-20240707号</a>`;//写你自己的维护者广告
 let 额外ID = '0';
 let 加密方式 = 'auto';
-let 网站图标, 网站头像, 网站背景;
+let 网站图标， 网站头像， 网站背景;
 async function 整理优选列表(api) {
-	if (!api || api.length === 0) return [];
+	if (!api || api。length === 0) return [];
 
 	let newapi = "";
 
@@ -54,29 +54,29 @@ async function 整理优选列表(api) {
 	const controller = new AbortController();
 
 	const timeout = setTimeout(() => {
-		controller.abort(); // 取消所有请求
-	}, 2000); // 2秒后触发
+		controller。abort(); // 取消所有请求
+	}， 2000); // 2秒后触发
 
 	try {
 		// 使用Promise.allSettled等待所有API请求完成，无论成功或失败
 		// 对api数组进行遍历，对每个API地址发起fetch请求
-		const responses = await Promise.allSettled(api.map(apiUrl => fetch(apiUrl, {
-			method: 'get',
+		const responses = await Promise。allSettled(api。map(apiUrl => fetch(apiUrl， {
+			method: 'get'，
 			headers: {
-				'Accept': 'text/html,application/xhtml+xml,application/xml;',
+				'Accept': 'text/html，application/xhtml+xml，application/xml;'，
 				'User-Agent': FileName + atob('IGNtbGl1L1dvcmtlclZsZXNzMnN1Yg==')
-			},
-			signal: controller.signal // 将AbortController的信号量添加到fetch请求中，以便于需要时可以取消请求
-		}).then(response => response.ok ? response.text() : Promise.reject())));
+			}，
+			signal: controller。signal // 将AbortController的信号量添加到fetch请求中，以便于需要时可以取消请求
+		})。then(response => response。ok ? response。text() : Promise。reject())));
 
 		// 遍历所有响应
-		for (const [index, response] of responses.entries()) {
+		for (const [index， response] of responses。entries()) {
 			// 检查响应状态是否为'fulfilled'，即请求成功完成
-			if (response.status === 'fulfilled') {
+			if (response。status === 'fulfilled') {
 				// 获取响应的内容
-				const content = await response.value;
+				const content = await response。value;
 
-				const lines = content.split(/\r?\n/);
+				const lines = content。split(/\r?\n/);
 				let 节点备注 = '';
 				let 测速端口 = '443';
 
