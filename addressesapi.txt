@@ -44,7 +44,6 @@
 104.18.113.32:8443#优选IP
 104.26.1.131:8443#优选IP
 108.162.194.116:8443#优选IP
-104.27.204.210:8443#优选IP
 104.18.96.247:8443#优选IP
 104.17.226.243:8443#优选IP
 104.20.128.179:8443#优选IP
@@ -55,9 +54,7 @@
 104.18.124.98:443#优选IP
 162.159.128.43:443#优选IP
 141.101.123.3:443#优选IP
-162.159.135.178:443#优选IP
 www.visa.com:443#优选域名
-time.cloudflare.com:443#优选域名
 shopify.com:443#优选域名
 time.is:443#优选域名
 icook.hk:443#优选域名
@@ -90,17 +87,10 @@ www.okcupid.com:443#优选域名
 www.glassdoor.com:443#优选域名
 www.udemy.com:443#优选域名
 www.baipiao.eu.org:443#优选域名
-cdn.anycast.eu.org:443#优选域名
-cdn-all.xn--b6gac.eu.org:443#优选域名
-cdn-b100.xn--b6gac.eu.org:443#优选域名
 xn--b6gac.eu.org:443#优选域名
-edgetunnel.anycast.eu.org:443#优选域名
-alejandracaiccedo.com:443#优选域名
-nc.gocada.co:443#优选域名
 log.bpminecraft.com:443#优选域名
 www.boba88slot.com:443#优选域名
 gur.gov.ua:443#优选域名
 www.zsu.gov.ua:443#优选域名
 www.iakeys.com:443#优选域名
 edtunnel-dgp.pages.dev:443#优选域名
-www.d-555.com:443#优选域名
