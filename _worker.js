@@ -17,7 +17,7 @@ let link;
 let 隧道版本作者 = atob('ZWQ=');
 let 获取代理IP;
 let proxyIPs = [
-	atob('cHJveHlpcC5meHhrLmRlZHluLmlv'),
+	atob('cHJveHlpcC5meHhrLmRlZHluLmlv')
 ];
 let 匹配PROXYIP = []
 let socks5DataURL = '';
